@@ -8,8 +8,8 @@ document.write('<p><label>Escribe tu número entero para evaluar la cantidad de 
 document.write('<div id="result"></div>');
 
 function showQuantity(){
-    console.log("self.value", document.getElementById("numtest").value);
-   var numTest = parseInt(document.getElementById("numtest").value);
+   // console.log("self.value", document.getElementById("numtest").value);
+    var numTest = parseInt(document.getElementById("numtest").value);
     if (numTest > 0) {
         if(String(numTest).length === 1){
             document.getElementById("result").innerHTML += 'El número '+numTest+' tiene '+String(numTest).length+' digito <br>';
