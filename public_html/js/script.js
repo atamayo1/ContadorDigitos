@@ -9,7 +9,7 @@ document.write('<div id="result"></div>');
 
 function showQuantity(){
    // console.log("self.value", document.getElementById("numtest").value);
-    var numTest = parseInt(document.getElementById("numtest").value);
+    let numTest = parseInt(document.getElementById("numtest").value);
     if (numTest > 0) {
         if(String(numTest).length === 1){
             document.getElementById("result").innerHTML += 'El número '+numTest+' tiene '+String(numTest).length+' digito <br>';
